@@ -50,8 +50,8 @@ a:hover {
   margin-top: 0px;
   float: left;
   background-color: #06bdcf;
-  width: 23.5%;
-  height: 216.6%;
+  width: 23em;
+  height: 127.15em;
   position: absolute;
   z-index: 5;
 }
@@ -292,7 +292,7 @@ a:hover {
 /* ----------------- rightTitleation -------------------- */
 /* TITLES SA RIGHT EX: EDUCATIONAL BG, SEMINARS EME */
 .rightTitle {
-  margin-left: 23%;
+  margin-left: 23em;
   margin-right: 2%;
   font-family: Arial;
   padding-left: 4%;
@@ -369,18 +369,18 @@ a:hover {
 
 /* HORIZONTAL CYAN DIVIDER BEFORE FORM */
 #formDivider {
-  margin-left: -50%;
+  margin-left: -23em;
   height: 5px;
   background-color: #06bdcf;
   border: none;
 }
 /* BUONG FORM */
 .formFooter {
-  margin-left: 23%;
+  margin-left: 23em;
   margin-right: 0;
   padding-left: 60px;
   background-color: #161616;
-  height: 280px;
+  height: 17.78em;
 }
 /* SEND ME A MESSAGE */
 #formHead {
