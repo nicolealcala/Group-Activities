@@ -1,12 +1,18 @@
+:root {
+  --color-primary:  #ff4c68;
+}
+
 body{
   font-family: "Montserrat";
   text-align: center;
 }
+
+
 h1 {
   font-family: "Montserrat";
 }
 #title {
-  background-color: #ff4c68;
+  background-color: var(--color-primary);
   color: #fff;
   text-align: left;
 }
@@ -39,12 +45,57 @@ h1 {
 }
 
 .colored-section {
-  background-color: #ff4c68;
+  background-color: var(--color-primary);
   color: #fff;
 }
 
 .container-fluid {
-  padding: 7% 15%;
+  padding: 7% 15%;;
+}
+
+#features {
+  background-color: #fff;
+  color: #000;
+  height: 15em;
+}
+
+#featureTitle {
+  color: var(--color-primary);
+}
+
+#features>.container>.row {
+  padding: 2em;
+}
+
+#testimonials {
+  background-color: var(--color-primary);
+  height: 30em;
+}
+
+#testimonialTextContainer {
+  display: flex;
+  height: 14.3em;
+  background-color: white;
+  border-radius: 1.5em 1.5em 0 1.5em;
+  margin-right: 2em;
+}
+
+#testimonialText {
+  width: 14em;
+  font-style: italic;
+  font-weight: 450;
+}
+
+#dogImg {
+  max-width: 100%;
+  display: flex;
+  
+}
+
+#nameLocation {
+  color: white;
+  text-align: center;
+  padding-top: 2em;
 }
 
 .title-image{
@@ -60,4 +111,35 @@ h1 {
 
 #features{
   position: relative;
+}
+
+#press>.container>.row {
+  padding: 0 2;
+  /* align-content: center;
+  justify-content: center; */
+}
+
+#logoRow {
+  align-content: center;
+}
+
+#logoRow>div>img {
+  justify-content: center;
+  align-self: center;  
+}
+
+.pressLogo {
+  max-width: 95%;
+  display: inline;
+  padding: 1.5em;
+}
+
+#pricing {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+#ctaText {
+  display: block;
+  height: max-content;
 }
