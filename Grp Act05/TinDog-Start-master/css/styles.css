@@ -143,3 +143,7 @@ h1 {
   display: block;
   height: max-content;
 }
+
+.featdetails{
+  margin-bottom: -10px;
+}
