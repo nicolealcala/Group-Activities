@@ -7,10 +7,10 @@ body{
   text-align: center;
 }
 
-
 h1 {
   font-family: "Montserrat";
 }
+
 #title {
   background-color: var(--color-primary);
   color: #fff;
@@ -26,9 +26,11 @@ h1 {
   font-size: 3.5rem;
   line-height: 1.5;
 }
+
 .navbar{
   padding:0 0 4.5rem;
 }
+
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 3.5rem;
@@ -69,7 +71,7 @@ h1 {
 
 #testimonials {
   background-color: var(--color-primary);
-  height: 30em;
+  height: auto;
 }
 
 #testimonialTextContainer {
@@ -148,3 +150,8 @@ h1 {
   line-height: 10px;;
 }
 
+#footer>p {
+  text-align: center;
+  color: #797979;
+  font-style: oblique;
+}
